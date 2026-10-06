@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Qamar privacy policy</title>
+<meta name="description" content="How Qamar handles your location, photos and journal.">
+<style>
+  :root {
+    --bg: #0b0d1f;
+    --surface: #14173a;
+    --text: #e9eaf7;
+    --muted: #a3a6cc;
+    --accent: #ffd23f;
+    --link: #6fdcff;
+    --line: #2c3170;
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #f5f5fb;
+      --surface: #e9eaf6;
+      --text: #15172e;
+      --muted: #4f5280;
+      --accent: #7a5a00;
+      --link: #0b5cad;
+      --line: #c5c8e6;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; scroll-padding-top: env(safe-area-inset-top, 0px); }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  main {
+    max-width: 42rem;
+    margin: 0 auto;
+    padding: calc(2.5rem + env(safe-area-inset-top, 0px)) 1.25rem calc(4rem + env(safe-area-inset-bottom, 0px));
+  }
+  .badge {
+    display: inline-block;
+    padding: 12px;
+    background: #0b0d1f;
+    border: 3px solid #6fdcff;
+    box-shadow: 5px 5px 0 #2c3170;
+    line-height: 0;
+  }
+  .badge svg { width: 56px; height: 56px; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 1.5rem 0 0.25rem; }
+  h2 { font-size: 1.25rem; line-height: 1.3; margin: 2.5rem 0 0.5rem; color: var(--accent); }
+  p, ul, dl { margin: 0.75rem 0; }
+  .meta { color: var(--muted); margin-top: 0; }
+  .summary {
+    margin: 1.75rem 0 0;
+    padding: 0.25rem 0 0.25rem 1rem;
+    border-left: 4px solid var(--link);
+    font-size: 1.1rem;
+  }
+  dt { font-weight: 650; margin-top: 1.1rem; }
+  dd { margin: 0.2rem 0 0; }
+  ul { padding-left: 1.25rem; }
+  li { margin: 0.35rem 0; }
+  a { color: var(--link); text-underline-offset: 3px; }
+  a:focus-visible { outline: 3px solid var(--link); outline-offset: 3px; border-radius: 2px; }
+</style>
+</head>
+<body>
+<main>
+
+<header>
+  <div class="badge">
+    <svg viewBox="0 0 12 12" shape-rendering="crispEdges" role="img" aria-label="Pixel art moon">
+      <g fill="#ffe27a">
+        <rect x="4" y="0" width="4" height="1"/>
+        <rect x="2" y="1" width="8" height="1"/>
+        <rect x="1" y="2" width="10" height="2"/>
+        <rect x="0" y="4" width="12" height="4"/>
+        <rect x="1" y="8" width="10" height="2"/>
+        <rect x="2" y="10" width="8" height="1"/>
+        <rect x="4" y="11" width="4" height="1"/>
+      </g>
+      <g fill="#d9b04a">
+        <rect x="3" y="3" width="2" height="2"/>
+        <rect x="7" y="6" width="2" height="2"/>
+        <rect x="4" y="8" width="1" height="1"/>
+        <rect x="8" y="2" width="1" height="1"/>
+      </g>
+    </svg>
+  </div>
+  <h1>Qamar privacy policy</h1>
+  <p class="meta">Last updated 6 October 2026</p>
+</header>
+
+<p class="summary">Qamar keeps your photos and journal on your phone. It uses your location to work out where the Moon and planets are, and it sends coordinates to a weather service to get cloud forecasts. There are no accounts, no ads and no tracking.</p>
+
+<h2>Who this is from</h2>
+<p>Qamar is made by Dan Khan ("I" in this policy). This page explains what the app does with your information. If anything is unclear, email me at <a href="mailto:dankhan087@gmail.com">dankhan087@gmail.com</a>.</p>
+
+<h2>What Qamar uses and why</h2>
+<dl>
+  <dt>Your location</dt>
+  <dd>Qamar asks for your location while you are using the app, never in the background. It uses it to calculate which planets and the Moon are above your horizon, and when. The app remembers your last location on your phone so it can show you the sky quickly next time.</dd>
+
+  <dt>Your camera and photos</dt>
+  <dd>If you add a shot to your journal, Qamar asks for access to your camera or photo library. The photos you choose are copied into the app's private storage on your phone. Qamar reads the date and time a photo was taken, when it has one, so it can work out where the Moon or planet was at that moment. Your photos are not uploaded anywhere.</dd>
+
+  <dt>Notifications</dt>
+  <dd>If you turn on evening alerts, Qamar asks permission to send notifications. They are scheduled on your phone, with no server involved. You can turn them off in the app's Settings tab or in your iPhone's notification settings.</dd>
+
+  <dt>Your journal</dt>
+  <dd>Each entry holds the photo, the target, the date and time, the location used for the calculation, the planet's altitude, the Moon's illumination, the cloud cover and any note you write. This is stored only on your phone.</dd>
+
+  <dt>Your settings</dt>
+  <dd>Your choices, such as which bodies you want alerts for, are stored on your phone.</dd>
+</dl>
+
+<h2>Cloud forecasts from Open-Meteo</h2>
+<p>To show cloud cover for tonight, and for the time of a photo you log, Qamar sends coordinates and a date to <a href="https://open-meteo.com">Open-Meteo</a>, a weather data service, and receives a forecast back. As with any internet request, Open-Meteo's servers can also see your device's IP address. Qamar does not send your name, photos, notes or journal. Open-Meteo has its own terms and policies, which you can read on its website.</p>
+
+<h2>What Qamar doesn't do</h2>
+<ul>
+  <li>It has no accounts or sign-ups.</li>
+  <li>It shows no ads.</li>
+  <li>It contains no analytics or tracking tools.</li>
+  <li>I don't sell, rent or share your data.</li>
+  <li>Your photos, notes and location never reach me.</li>
+</ul>
+<p>Apple may give me limited, anonymous crash and usage information if you have chosen to share it with developers in your iPhone settings. That is controlled by Apple and by you.</p>
+
+<h2>Where your data lives and how to delete it</h2>
+<p>Everything Qamar stores is on your phone. You can delete a journal entry from inside the app. Deleting the app removes all of its data from your phone. If you use iCloud Backup, iOS may include the app's data in your device backup, which is managed by Apple and your own settings.</p>
+
+<h2>Children</h2>
+<p>Qamar is not aimed at children, and I don't knowingly collect personal information from them.</p>
+
+<h2>Changes to this policy</h2>
+<p>If the app changes in a way that affects your privacy, I will update this page and the date at the top before the change is released.</p>
+
+<h2>Contact</h2>
+<p>Questions or requests: <a href="mailto:dankhan087@gmail.com">dankhan087@gmail.com</a>.</p>
+
+<p class="meta" style="margin-top:2.5rem"><a href="index.html">Back to Qamar support</a></p>
+
+</main>
+</body>
+</html>
